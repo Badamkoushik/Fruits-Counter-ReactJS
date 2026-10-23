@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+}
+
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffd569;
+  min-height: 100vh;
+  padding: 10px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 8px;
+  width: 250px;
+  flex-shrink: 0;
+  padding: 15px 10px;
+}
+
+.main-heading {
+  color: #000000;
+  font-family: 'Roboto';
+  text-align: center;
+  font-weight: 900;
+  font-size: 15px;
+  margin: 0 0 10px;
+}
+
+.counter-value {
+  color: #ffd569;
+  font-family: 'Roboto';
+}
+
+.image {
+  width: 120px;
+}
+
+.btn {
+  background-color: #007bff;
+  font-family: 'Roboto';
+  color: #ffffff;
+  border-radius: 3px;
+  border-width: 0;
+  font-weight: 400;
+  height: 30px;
+  width: 90px;
+}
+
+.first-button {
+  margin-top: 10px;
+}
+
+.second-button {
+  margin-bottom: 10px;
+}
+
+.fruits-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.first-card,
+.second-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .card-container {
+    width: 600px;
+    min-height: 480px;
+    height: auto;
+    justify-content: flex-start;
+    padding: 20px 10px 10px;
+  }
+  .main-heading {
+    font-size: 30px;
+    margin: 0 0 15px;
+  }
+
+  .image {
+    width: 250px;
+  }
+
+  .fruits-container {
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    padding-top: 40px;
+  }
+  .second-button {
+    margin: 35px;
+  }
+  .first-button {
+    margin-top: 35px;
+  }
+}
