@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Fruits-Counter-ReactJS/static/css/main.b2a8a3b0.chunk.css",
+    "main.js": "/Fruits-Counter-ReactJS/static/js/main.4f816f60.chunk.js",
+    "main.js.map": "/Fruits-Counter-ReactJS/static/js/main.4f816f60.chunk.js.map",
+    "runtime-main.js": "/Fruits-Counter-ReactJS/static/js/runtime-main.63040638.js",
+    "runtime-main.js.map": "/Fruits-Counter-ReactJS/static/js/runtime-main.63040638.js.map",
+    "static/js/2.0b09308d.chunk.js": "/Fruits-Counter-ReactJS/static/js/2.0b09308d.chunk.js",
+    "static/js/2.0b09308d.chunk.js.map": "/Fruits-Counter-ReactJS/static/js/2.0b09308d.chunk.js.map",
+    "index.html": "/Fruits-Counter-ReactJS/index.html",
+    "static/css/main.b2a8a3b0.chunk.css.map": "/Fruits-Counter-ReactJS/static/css/main.b2a8a3b0.chunk.css.map",
+    "static/js/2.0b09308d.chunk.js.LICENSE.txt": "/Fruits-Counter-ReactJS/static/js/2.0b09308d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.63040638.js",
+    "static/js/2.0b09308d.chunk.js",
+    "static/css/main.b2a8a3b0.chunk.css",
+    "static/js/main.4f816f60.chunk.js"
+  ]
+}
